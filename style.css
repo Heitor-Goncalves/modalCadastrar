@@ -1,0 +1,43 @@
+html,body{
+    height: 100vh;
+}
+body{
+    background-image: url(./beautiful-shot-blue-purple-sky-filled-with-starts.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    width: 100px;
+}
+
+.btn-mostrar{
+    color: white;
+    background-color: rgb(31, 184, 133);
+}
+.btn-mostrar:hover{
+    color: white;
+    background-color: rgb(59, 160, 126);
+}
+
+.btn-cancel{
+    background-color: rgb(189, 62, 62);
+    color: white;
+}
+.btn-cancel:hover{
+    background-color:rgb(134, 43, 43);
+    color: white;
+}
+
+.modal-content{
+    background-color: rgb(44, 45, 90);
+    color: rgb(171, 179, 179);
+    padding: 50px;
+}
+.modal-header{
+    border-bottom: none;
+}
